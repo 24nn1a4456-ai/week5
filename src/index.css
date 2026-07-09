@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@300;400&display=swap');
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-gold-50: #FAF6ED;
+  --color-gold-100: #F3EBDB;
+  --color-gold-200: #E6D2B1;
+  --color-gold-300: #D6B781;
+  --color-gold-400: #C5A059;
+  --color-gold-500: #B38C44;
+  --color-gold-600: #937033;
+  --color-gold-700: #6D5123;
+  --color-gold-800: #463416;
+  --color-gold-900: #22190B;
+}
+
+body {
+  background-color: #FDFCF9;
+  color: #1A1A1A;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFCF9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E0D5;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B38C44;
+}
+
+/* Elegant shadow utilities */
+.luxury-shadow {
+  box-shadow: 0 10px 30px -15px rgba(179, 140, 68, 0.12);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Subtle glowing background glow */
+@keyframes ambientGlow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.animate-glow {
+  animation: ambientGlow 8s ease-in-out infinite;
+}
