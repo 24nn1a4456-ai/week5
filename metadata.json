@@ -2,7 +2,5 @@
   "name": "Remix: Aether \u0026 Gold",
   "description": "An avant-garde high-end luxury e-commerce experience featuring premium catalog search, interactive cart, mock authentication, product reviews, comparison, and a sleek, sophisticated dark aesthetic.",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "majorCapabilities": []
 }

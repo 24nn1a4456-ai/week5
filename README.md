@@ -1,16 +1,36 @@
-# Remix: Aether & Gold
+# Aether & Gold
 
+An avant-garde high-end luxury e-commerce UI (React + Vite).
 
-This project contains everything you need to run the app locally.
+## Demo / Preview
+- Open the running app in your browser after starting the dev server (instructions below).
 
 ## Run Locally
 
+### Prerequisites
+- Node.js (LTS recommended)
 
-**Prerequisites:**  Node.js
-
-
+### Steps
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open your browser at:
+   - http://localhost:3000
+
+## Build for Production
+```bash
+npm run build
+```
+
+## Project Structure
+- `src/App.tsx` - main application UI
+- `src/data/` - product data and helpers
+- `index.html` - Vite entry HTML
+
+## Notes
+- This repository is set up for **manual submission** (no AI-studio deployment metadata required).
